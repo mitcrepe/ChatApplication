@@ -60,7 +60,6 @@ namespace ChatApplication.Server {
                 Socket listener = (Socket)ar.AsyncState;
                 Socket handler = listener.EndAccept(ar);
                 _clients.Add(handler);
-                WriteToLog("User joined the room");
                 _newConnectionEstablished = true;
             }
         }
@@ -70,6 +69,7 @@ namespace ChatApplication.Server {
                 if (_newConnectionEstablished) {
                     _listener.BeginAccept(new AsyncCallback(AcceptCallback), _listener);
                     _newConnectionEstablished = false;
+                    WriteToLog("User joined the room");
                 }
 
                 // block this when adding client
