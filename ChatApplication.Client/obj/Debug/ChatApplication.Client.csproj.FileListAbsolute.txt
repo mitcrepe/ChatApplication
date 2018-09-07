@@ -7,3 +7,13 @@ E:\Projects\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.
 E:\Projects\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.csproj.GenerateResource.Cache
 E:\Projects\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.exe
 E:\Projects\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.pdb
+D:\Programming\C#\ChatApplication\ChatApplication.Client\bin\Debug\ChatApplication.Client.exe.config
+D:\Programming\C#\ChatApplication\ChatApplication.Client\bin\Debug\ChatApplication.Client.exe
+D:\Programming\C#\ChatApplication\ChatApplication.Client\bin\Debug\ChatApplication.Client.pdb
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.csprojAssemblyReference.cache
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.Client.resources
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.Properties.Resources.resources
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.csproj.GenerateResource.cache
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.csproj.CoreCompileInputs.cache
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.exe
+D:\Programming\C#\ChatApplication\ChatApplication.Client\obj\Debug\ChatApplication.Client.pdb

@@ -26,6 +26,7 @@
             this.txtPort = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
+            this.txtLog = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtPort
@@ -47,7 +48,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(15, 62);
+            this.btnStart.Location = new System.Drawing.Point(343, 12);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(94, 23);
             this.btnStart.TabIndex = 2;
@@ -55,11 +56,21 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.OnStart);
             // 
+            // txtLog
+            // 
+            this.txtLog.Location = new System.Drawing.Point(15, 49);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.ReadOnly = true;
+            this.txtLog.Size = new System.Drawing.Size(422, 179);
+            this.txtLog.TabIndex = 3;
+            // 
             // Server
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(195, 97);
+            this.ClientSize = new System.Drawing.Size(449, 240);
+            this.Controls.Add(this.txtLog);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPort);
@@ -75,6 +86,7 @@
         private System.Windows.Forms.TextBox txtPort;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.TextBox txtLog;
     }
 }
 
