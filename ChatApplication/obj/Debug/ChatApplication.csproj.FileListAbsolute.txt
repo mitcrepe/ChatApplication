@@ -1,0 +1,2 @@
+E:\Projects\C#\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe.config
+E:\Projects\C#\ChatApplication\ChatApplication\bin\Debug\Server.exe.config
