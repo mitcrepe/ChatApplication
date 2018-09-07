@@ -15,6 +15,7 @@ namespace ChatApplication.Client {
 
         Socket _sender;
         bool _connected;
+        byte[] buffer;
 
         public string ServerAddress { get { return txtAddress.Text; } }
         public int ServerPort { get { return int.Parse(txtPort.Text); } }
@@ -40,13 +41,19 @@ namespace ChatApplication.Client {
 
             try {
                 _sender.Connect(remoteEP);
+                buffer = new byte[1024];
+                //_sender.BeginReceive(buffer, SocketFlags.Broadcast, OnMessageReceived, )
             } catch (Exception ex) {
                 WriteToChatWindow(ex.Message);
-                //throw;
             }
         }
 
         private void OnSend(object sender, EventArgs e) {
+            byte[] msg = Encoding.ASCII.GetBytes(txtMessage.Text);
+            _sender.Send(msg);
+        }
+
+        private void OnMessageReceived() {
 
         }
 
