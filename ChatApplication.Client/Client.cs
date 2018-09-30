@@ -24,7 +24,7 @@ namespace ChatApplication.Client {
         public Client() {
             InitializeComponent();
 
-            txtAddress.Text = "192.168.1.2";
+            txtAddress.Text = "127.0.0.1";
             txtPort.Text = "11500";
 
             _connected = false;
